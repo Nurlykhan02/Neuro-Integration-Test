@@ -10,7 +10,7 @@ from aiogram import types, Dispatcher, Bot
 
 import keyboard
 
-bot = Bot("5902026863:AAFDfgVGCZ_OpJKLZFmMjlJYvfGIor1cmFY", parse_mode=types.ParseMode.HTML)
+bot = Bot("", parse_mode=types.ParseMode.HTML)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
